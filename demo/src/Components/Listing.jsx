@@ -9,7 +9,8 @@ const Listing = () => {
        <Link to = "about" ><li>About</li></Link> 
  
        <Link to ="antd-form"><li>Antd Form</li></Link>
-       <li>fuegtu</li>
+       <Link to ="table"><li>table Editing</li></Link>
+     
       </ul>
      
     </div>

@@ -5,6 +5,7 @@ import Routerpractie from './Components/Routerpractie';
 import Home from './Components/Home';
 import About from './Components/About';
 import Listing from './Components/Listing';
+import Edittabledata from './Components/Edittabledata';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/home" element={<Home />}> </Route>
         <Route path="/about" element={<About />}></Route>
         <Route path ="/antd-form" element ={<Routerpractie/>}></Route>
+        <Route path ="/table" element ={<Edittabledata/>}></Route>
         
       </Routes>
     </BrowserRouter>
